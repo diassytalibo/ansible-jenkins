@@ -1,7 +1,6 @@
 
 - name: install nginx
   hosts: all
-  remote_user: jenkins
   become: True
   roles:
     - nginx
