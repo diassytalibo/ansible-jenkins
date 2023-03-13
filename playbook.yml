@@ -1,6 +1,7 @@
 
 - name: install nginx
-  hosts: servers
+  hosts: all
+  remote_user: talib
   become: True
   roles:
     - nginx
