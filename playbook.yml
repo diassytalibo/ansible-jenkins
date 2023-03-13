@@ -3,5 +3,7 @@
   hosts: all
   remote_user: talib
   become: True
+  vars:
+    ansible_become_passwd: dod21vde
   roles:
     - nginx
